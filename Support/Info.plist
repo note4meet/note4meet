@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>note4meet</string>
+	<key>CFBundleDisplayName</key>
+	<string>note4meet</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.github.note4meet</string>
+	<key>CFBundleExecutable</key>
+	<string>note4meet</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>de</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>de</string>
+		<string>en</string>
+	</array>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>io.github.note4meet.agenda-item</string>
+			<key>UTTypeDescription</key>
+			<string>note4meet Agendapunkt</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>note4meet liest deine Termine, damit du Notizen zu Meetings hinterlegen kannst und zum Start daran erinnert wirst.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>note4meet liest deine Termine, damit du Notizen zu Meetings hinterlegen kannst und zum Start daran erinnert wirst.</string>
+</dict>
+</plist>
